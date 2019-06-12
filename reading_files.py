@@ -6,5 +6,11 @@
 #'r+' - you have all the power in reading and writing
 variable = open("files.txt", "r+")
 
+#read - read all files txt
 print(variable.read())
+#readline - read first line
+print(variable.readline())
+#readline from index
+print(variable.readlines()[3])
+
 variable.close()
